@@ -10,8 +10,6 @@ django-environ==0.11.2  # Manage environment variables in Django projects.
 djangorestframework==3.15.2  # API framework for building REST APIs in Django.
 djangorestframework-simplejwt==5.2.2  # JWT-based authentication for DRF (REST APIs).
 drf-yasg==1.21.6  # Auto-generate Swagger/OpenAPI documentation for DRF APIs.
-gunicorn==20.1.0  # WSGI server for running Django in production.
-whitenoise==6.4.0  # Simplified static file serving in production for Django apps.
 
 # Database & ORM
 # psycopg2-binary==2.9.9  # PostgreSQL database adapter for Django.
@@ -52,3 +50,5 @@ sentry-sdk==1.30.0  # Error tracking and monitoring for Django apps using Sentry
 # Testing & Development Tools
 factory-boy==3.2.1  # Factory pattern library for generating test data.
 django-test-plus==1.4.0  # Additional testing utilities for Django.
+whitenoise==6.5.0
+gunicorn==21.2.0
